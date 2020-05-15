@@ -7,7 +7,7 @@ url = 'https://oapi.dingtalk.com/robot/send?access_token=53a5a9db50790c5c9468170
 now_time=datetime.datetime.now()
 seven_time=now_time+datetime.timedelta(days=-7)
 obj = dict(msgtype="text", text=dict(content='@所有人'+
-                                             '\n数字警务室今天下班之前提交数据周报！！！[猫咪][猫咪][猫咪]'+
+                                             '\n数字警务室今天下班之前提交实战周报！！！[猫咪][猫咪][猫咪]'+
                                              '\n1)本次报告数据统计时间为：'+
                                              '\n'+seven_time.strftime('%Y-%m-%d')+
                                              '  到  '+now_time.strftime('%Y-%m-%d')+

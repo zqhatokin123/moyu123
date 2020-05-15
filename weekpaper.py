@@ -13,13 +13,13 @@ obj = dict(msgtype="text", text=dict(content='@所有人'+
                                              '  到  '+now_time.strftime('%Y-%m-%d')+
                                              '\n2)研判案件数等数据均是”新增“的数量，不是历史累积，也不含“更新”案件。'+
                                              '\n3)点开下列链接填写各自负责的“局点”数据（下拉菜单可选择局点，若无相关局点，可自行添加或通知我添加，格式“战区-省-市-局点”）。'+
-                                             '\n4）请点击以下链接填写:'+
+                                             '\n4)请点击以下链接填写:'+
                                              '\n阿里的实战同学：'+
                                              '\nhttps://yida.alibaba-inc.com/alibaba/web/APP_VH4COUW73O5IGNTCV01G/inst/formSubmit.html?formUuid=FORM-VFYJGRMVB98BKZZL1LEP56J2MUS532HJBPZ3KBB'+
                                              '\n非阿里的实战同学：'+
                                              '\nhttps://yida.alibaba-inc.com/o/szwb'
                                              '\nhttp://vcs.gts.terminus.io/project/user-arrangement'+
-                                             '\n5）@董伟@张泽南@张杰峰@谢艺鹏，请在周四下班前检查宇视周报提交情况；若有局点已撤离，或本周无实战人员，请朱国胜汇总后通知我，多谢。'
+                                             '\n5)@董伟@张泽南@张杰峰@谢艺鹏，请在周四下班前检查宇视周报提交情况；若有局点已撤离，或本周无实战人员，请朱国胜汇总后通知我，多谢。'
                                      ))
 requests.post(url,
     headers={'Content-Type': 'application/json'},

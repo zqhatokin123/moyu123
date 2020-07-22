@@ -3,11 +3,11 @@ import json
 import time
 import datetime
 time.strftime('%Y-%m-%d')
-url = 'https://oapi.dingtalk.com/robot/send?access_token=53a5a9db50790c5c9468170930262d6b79c8669583b996da40dae5df2b4400e3'
+url = 'https://oapi.dingtalk.com/robot/send?access_token=d896f1b9d79c5ea9e56fa8a3f3e848c95b005bc53634457c0b38dfc0c278aad1'
 now_time=datetime.datetime.now()
 seven_time=now_time+datetime.timedelta(days=-6)
 obj = dict(msgtype="text", text=dict(content='@所有人'+
-                                             '\n数字警务室今天下班之前提交实战周报！！！[猫咪][猫咪][猫咪]'+
+                                             '\n数字警务室今天下班之前提交实战日报！！！[猫咪][猫咪][猫咪]'+
                                              '\n1)本次报告数据统计时间为：'+
                                              '\n'+seven_time.strftime('%Y-%m-%d')+
                                              '  到  '+now_time.strftime('%Y-%m-%d')+

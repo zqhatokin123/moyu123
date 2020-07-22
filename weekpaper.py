@@ -3,7 +3,7 @@ import json
 import time
 import datetime
 time.strftime('%Y-%m-%d')
-url = 'https://oapi.dingtalk.com/robot/send?access_token=d896f1b9d79c5ea9e56fa8a3f3e848c95b005bc53634457c0b38dfc0c278aad1'
+url = 'https://oapi.dingtalk.com/robot/send?access_token=a92543af7d62419352d16643a898bf249d5852284e772839d71dd8ec068fca89'
 now_time=datetime.datetime.now()
 seven_time=now_time+datetime.timedelta(days=-6)
 obj = dict(msgtype="text", text=dict(content='@所有人'+

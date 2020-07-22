@@ -7,8 +7,8 @@ url = 'https://oapi.dingtalk.com/robot/send?access_token=d896f1b9d79c5ea9e56fa8a
 now_time=datetime.datetime.now()
 seven_time=now_time+datetime.timedelta(days=-6)
 obj = dict(msgtype="text", text=dict(content='@所有人'+
-                                             '\麻烦各位实战同学提交以下信息：'+
-                                             '\实战日报链接：'+
+                                             '\n麻烦各位实战同学提交以下信息：'+
+                                             '\n实战日报链接：'+
                                              '\nhttps://yida.alibaba-inc.com/s/ACdaily'+
                                              '\n产品bug及优化建议链接：'+
                                              '\nhttps://yida.alibaba-inc.com/s/PRactualcombat'
